@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+<style>
+</style>
+
+<div >
+    <div class="container">
+        <div>
+            <h2>{{ book.title }}</h2>
+            <p>Price: {{ book.price }}</p>
+            <p>Rating: {{ book.rating }}</p>
+            <img src="{{ "https://books.toscrape.com" ~ book.img | replace({'..': ''}) }}" alt="{{ book.title }}" />
+        </div>
+    </div>
+</div>
+{% endblock %}

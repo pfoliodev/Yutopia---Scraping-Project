@@ -2,6 +2,8 @@
 
 ## Scraping project
 
+This is a study project for Yutopia School. We were asked to scrape a website and then save the scraped data in a database. After that we had to set up a Rest API as well as a front end to display the data.
+
 ## Install Python & Mysql
 We need python to scrap webpage and Mysql to store the data in it
 Do not forget to add path environment variable
